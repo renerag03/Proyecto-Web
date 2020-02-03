@@ -11,14 +11,29 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/About.vue')
+    path: '/contacto',
+    name: 'contacto',
+    component: () => import('../views/Contacto.vue')
   },
   {
     path: '/galeria',
     name: 'galeria',
     component: () => import('../views/Galeria.vue')
+  },
+  {
+    path: '/acontecimiento',
+    name: 'acontecimiento',
+    component: () => import('../components/Acontecimiento.vue')
+  },
+  {
+    path: '/personalizadas',
+    name: 'personalizadas',
+    component: () => import('../components/Personalizadas.vue')
+  },
+  {
+    path: '/normales',
+    name: 'normales',
+    component: () => import('../components/Normales.vue')
   },
   {
     path: '/tortas',
