@@ -3,7 +3,7 @@
     <b-navbar toggleable="lg" type="dark" variant="info">
       <b-container >
         <b-navbar-brand href="#">
-          <img src="@/assets/prueba2.png" width="50" height="50" />
+          <img src="@/assets/logo.png" width="140" height="100" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -20,7 +20,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >SERVICIOS</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropdown-menu" bg-info aria-labelledby="navbarDropdownMenuLink">
                 <b-dropdown-item :to="{name:'tortas'}">TORTAS</b-dropdown-item>
                 <b-dropdown-item :to="{name:'postres'}">POSTRES</b-dropdown-item>
               </div>
@@ -35,7 +35,7 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col>
-          <img class="logo-footer" src="@/assets/prueba2.png" width="150" height="150" />
+          <img class="logo-footer" src="@/assets/logo.png" width="120" height="120" />
         </b-col>
         <b-col>
           <h1>hola</h1>
@@ -43,12 +43,10 @@
         <b-col>
           <ul>
             <a target="_black" href="https://www.facebook.com/rene.antezana.5">
-              <img src="https://i.ya-webdesign.com/images/facebook-log-png-8.png" width="50" height="50"/>
+              <img src="https://i.ya-webdesign.com/images/facebook-log-png-8.png" width="50" height="50"/>facebook
             </a>
-          </ul>
-          <ul>
             <a target="_black" href="https://api.whatsapp.com/send?phone=59176916166">
-              <img src="https://cdn.icon-icons.com/icons2/1488/PNG/128/5302-whatsapp_102550.png" width="50" height="50" />
+              <img src="https://cdn.icon-icons.com/icons2/1488/PNG/128/5302-whatsapp_102550.png" width="50" height="50" />whatsapp
             </a>
           </ul>
         </b-col>

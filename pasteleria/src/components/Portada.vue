@@ -22,9 +22,9 @@
             alt="image slot"
           />
           <div class="carousel-caption d-none d-md-block">
-        <h1>Hola mundo</h1>
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1>Mis Antojos y Caprichos</h1>
+        <h5>Tortas para matrimonio</h5>
+        <p></p>
       </div>
         </template>
       </b-carousel-slide>
