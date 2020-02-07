@@ -1,10 +1,32 @@
 <template>
-  <div class="Contacto">
+  <div>
     <b-container class="bv-example-row">
-  <b-row>
-    <b-col><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPasteler%25C3%25ADa-Mis-Antojos-y-Caprichos-108913157320536%2F%3F__tn__%3D%252Cd%252CP-R%26eid%3DARDxhgVxAUTACJigVt7HOQiqdIflTfDQ7to1oN5GfYrk69pli66Lo4voaPy0LwGCVxhE6RKBNwwSF1uJ&tabs=timeline&width=340&height=222&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="222" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></b-col>
-    <b-col>2 of 2</b-col>
-  </b-row>
-  </b-container>
+      <b-row>
+        <b-col>
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPasteler%C3%ADa-Mis-Antojos-y-Caprichos-108913157320536%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
+            width="500"
+            height="500"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </b-col>
+        <b-col>
+          <a
+            target="_black"
+            href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F108913157320536%2F%3Fmessaging_source%3Dsource%253Apages%253Apage_plugin_message"
+          >
+            <img
+              src="https://cdn.icon-icons.com/icons2/836/PNG/128/Facebook_Messenger_icon-icons.com_66796.png"
+              width="50"
+              height="50"
+            />Messenger
+          </a>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>

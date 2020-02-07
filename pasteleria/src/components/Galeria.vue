@@ -1,6 +1,6 @@
 <template>
   <div class="margenG">
-  <b-container fluid class="p-4 colorG text-white">
+  <b-container fluid class="p-4 text-white fondo">
   <h1>GALERIA DE FOTOS</h1>
   <b-row class="text-white">
     <b-col>
@@ -30,14 +30,12 @@ export default {
 </script>
 
 <style>
-.colorG{
-  background-color: black;
-}
 .margenG{
-background-color: deeppink;
-padding-top: 5px;
-border-top: 2px;
-padding-bottom: 5px;
-border-bottom: 2px
+  background-color: indigo;
+  padding-bottom: 5px;
+  border-bottom: 2px
+}
+.fondo{
+  background-color: black
 }
 </style>
