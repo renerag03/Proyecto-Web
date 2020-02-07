@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <b-container fluid class="p-4 bg-dark">
+  <div class="margenP">
+    <div class="margenP2">
+    <div class="fondoP">
+    <b-container fluid class="p-4">
       <b-row>
-        <b-col>
+        <b-col class="img">
           <img src="@/assets/Personalizadas/P01.jpg"  alt="..." class="img-thumbnail" />
         </b-col>
-        <b-col>
+        <b-col class="img">
           <img src="@/assets/Personalizadas/P02.jpg"  alt="..." class="img-thumbnail" />
         </b-col>
         <b-col>
@@ -16,7 +18,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P05.jpg" alt="..." class="img-thumbnail" />
@@ -32,7 +34,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P09.jpg" alt="..." class="img-thumbnail" />
@@ -48,7 +50,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P13.jpg" alt="..." class="img-thumbnail" />
@@ -64,7 +66,7 @@
         </b-col>
       </b-row>
     </b-container>
-     <b-container fluid class="p-4 bg-dark">
+     <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P17.jpg" alt="..." class="img-thumbnail" />
@@ -80,7 +82,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
        <b-col>
           <img src="@/assets/Personalizadas/P21.jpg" alt="..." class="img-thumbnail" />
@@ -96,7 +98,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P25.jpg" alt="..." class="img-thumbnail" />
@@ -112,7 +114,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P29.jpg" alt="..." class="img-thumbnail" />
@@ -128,7 +130,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P33.jpg" alt="..." class="img-thumbnail" />
@@ -144,7 +146,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P37.jpg" alt="..." class="img-thumbnail" />
@@ -160,7 +162,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P41.jpg" alt="..." class="img-thumbnail" />
@@ -176,7 +178,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P45.jpg" alt="..." class="img-thumbnail" />
@@ -192,7 +194,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P49.jpg" alt="..." class="img-thumbnail" />
@@ -208,7 +210,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P53.jpg" alt="..." class="img-thumbnail" />
@@ -224,7 +226,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P58.jpg" alt="..." class="img-thumbnail" />
@@ -240,7 +242,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P62.jpg" alt="..." class="img-thumbnail" />
@@ -256,7 +258,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P66.jpg" alt="..." class="img-thumbnail" />
@@ -272,7 +274,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P70.jpg" alt="..." class="img-thumbnail" />
@@ -288,7 +290,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P74.jpg" alt="..." class="img-thumbnail" />
@@ -304,7 +306,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P78.jpg" alt="..." class="img-thumbnail" />
@@ -320,7 +322,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P82.jpg" alt="..." class="img-thumbnail" />
@@ -336,7 +338,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P86.jpg" alt="..." class="img-thumbnail" />
@@ -352,7 +354,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P90.jpg" alt="..." class="img-thumbnail" />
@@ -368,7 +370,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P94.jpg" alt="..." class="img-thumbnail" />
@@ -384,7 +386,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P98.jpg" alt="..." class="img-thumbnail" />
@@ -400,7 +402,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P102.jpg" alt="..." class="img-thumbnail" />
@@ -416,7 +418,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container fluid class="p-4 bg-dark">
+    <b-container fluid class="p-4">
       <b-row>
         <b-col>
           <img src="@/assets/Personalizadas/P106.jpg" alt="..." class="img-thumbnail" />
@@ -426,6 +428,8 @@
         </b-col>
       </b-row>
     </b-container>
+    </div>
+   </div>
   </div>
 </template>
 
@@ -434,4 +438,17 @@ export default {}
 </script>
 
 <style>
+.margenP{
+background-color: deeppink;
+padding-top: 5px;
+border-top: 2px;
+}
+.margenP2{
+background-color: indigo;
+padding-bottom: 5px;
+border-bottom: 2px;
+}
+.fondoP{
+  background-color: black;
+}
 </style>

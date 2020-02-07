@@ -1,6 +1,8 @@
 <template>
-  <div>
-  <b-container fluid class="p-4 bg-dark">
+  <div class="margenA">
+    <div class="margenA2">
+      <div class="fondoA">
+  <b-container fluid class="p-4">
     <h1 class="text-white">Matrimonio</h1>
   <b-row>
     <b-col>
@@ -14,7 +16,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A04.jpg" alt="..." class="img-thumbnail">
@@ -27,7 +29,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A07.jpg" alt="..." class="img-thumbnail">
@@ -40,7 +42,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A10.jpg" alt="..." class="img-thumbnail">
@@ -53,7 +55,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A13.jpg" alt="..." class="img-thumbnail">
@@ -66,7 +68,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A16.jpg" alt="..." class="img-thumbnail">
@@ -79,7 +81,7 @@
     </b-col>=
   </b-row>
 </b-container>
-  <b-container fluid class="p-4 bg-dark">
+  <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Evento/A19.jpg" alt="..." class="img-thumbnail">
@@ -91,6 +93,8 @@
     </b-col>=
   </b-row>
 </b-container>
+</div>
+</div>
   </div>
 </template>
 
@@ -102,5 +106,17 @@ export default {
 </script>
 
 <style>
-
+.margenA{
+background-color: deeppink;
+padding-top: 5px;
+border-top: 2px;
+}
+.margenA2{
+background-color: indigo;
+padding-bottom: 5px;
+border-bottom: 2px;
+}
+.fondoA{
+  background-color: black;
+}
 </style>

@@ -1,6 +1,8 @@
 <template>
-  <div>
-      <b-container fluid class="p-4 bg-dark">
+  <div class="margenN">
+    <div class="margenN2">
+      <div class="fondoN">
+      <b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Tortas/N01.jpg" alt="..." class="img-thumbnail">
@@ -13,7 +15,7 @@
     </b-col>=
   </b-row>
 </b-container>
-<b-container fluid class="p-4 bg-dark">
+<b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Tortas/N04.jpg" alt="..." class="img-thumbnail">
@@ -25,7 +27,7 @@
       <img src="@/assets/Tortas/N06.jpg" alt="..." class="img-thumbnail">
     </b-col>=
   </b-row>
-</b-container><b-container fluid class="p-4 bg-dark">
+</b-container><b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Tortas/N07.jpg" alt="..." class="img-thumbnail">
@@ -50,7 +52,7 @@
       <img src="@/assets/Tortas/N12.jpg" alt="..." class="img-thumbnail">
     </b-col>=
   </b-row>
-</b-container><b-container fluid class="p-4 bg-dark">
+</b-container><b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Tortas/N13.jpg" alt="..." class="img-thumbnail">
@@ -63,7 +65,7 @@
     </b-col>=
   </b-row>
 </b-container>
-<b-container fluid class="p-4 bg-dark">
+<b-container fluid class="p-4">
   <b-row>
     <b-col>
      <img src="@/assets/Tortas/N16.jpg" alt="..." class="img-thumbnail">
@@ -75,6 +77,8 @@
     </b-col>=
   </b-row>
 </b-container>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -85,5 +89,18 @@ export default {
 </script>
 
 <style>
+.margenN{
+background-color: deeppink;
+padding-top: 5px;
+border-top: 2px;
+}
+.margenN2{
+background-color: indigo;
+padding-bottom: 5px;
+border-bottom: 2px;
+}
+.fondoN{
+  background-color: black;
+}
 
 </style>

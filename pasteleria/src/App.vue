@@ -37,22 +37,28 @@
         </b-col>
         <b-col>
           <br />
-          <h6>Te ofrecemos nuestro servicio para poder cumplir tus espectativas para ese dia tan esperado y sea un recuerdo especial en tu vida</h6>
+          <h3 class="text-light">Tortas a pedido</h3>
+          <h6 class=" text-left text-light">Te ofrecemos nuestro servicio para poder cumplir tus espectativas para ese dia tan esperado y sea un recuerdo especial en tu vida</h6>
+        <div class="text-center">
+  <b-spinner variant="danger" label="Spinning"></b-spinner>
+  <b-spinner variant="danger" type="grow" label="Spinning"></b-spinner>
+  <b-spinner variant="warning" label="Spinning"></b-spinner>
+  <b-spinner variant="warning" type="grow" label="Spinning"></b-spinner>
+  <b-spinner variant="success" label="Spinning"></b-spinner>
+  <b-spinner variant="success" type="grow" label="Spinning"></b-spinner>
+</div>
         </b-col>
         <b-col>
           <br />
-          <h4>Contactanos</h4>
+          <h4 class="text-light ">Contactanos</h4>
           <ul>
             <li>
-              <a>
+              <a class="text-light">
                 <img src="@/assets/celu1.png" width="40" height="40" /> 79341022
               </a>
             </li>
             <li>
-              <a
-                target="_black"
-                href="https://www.facebook.com/Pasteler%C3%ADa-Mis-Antojos-y-Caprichos-108913157320536/?modal=admin_todo_tour"
-              >
+              <a target="_black" href="https://www.facebook.com/Pasteler%C3%ADa-Mis-Antojos-y-Caprichos-108913157320536/?modal=admin_todo_tour">
                 <img
                   src="https://i.ya-webdesign.com/images/facebook-log-png-8.png"
                   width="30"
@@ -70,10 +76,7 @@
               </a>
             </li>
             <li>
-              <a
-                target="_black"
-                href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F108913157320536%2F%3Fmessaging_source%3Dsource%253Apages%253Apage_plugin_message"
-              >
+              <a target="_black" href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F108913157320536%2F%3Fmessaging_source%3Dsource%253Apages%253Apage_plugin_message">
                 <img src="@/assets/Messenger.png" width="23" height="23" /> Messenger
               </a>
             </li>

@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <b-container class="bv-example-row">
+  <div class="margenC">
+    <div class="margenC2">
+      <div class="fondoC">
+      <b-container class="bv-example-row">
+        <br>
       <b-row>
         <b-col>
+          <br>
           <iframe
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPasteler%C3%ADa-Mis-Antojos-y-Caprichos-108913157320536%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
             width="500"
@@ -15,18 +19,35 @@
           ></iframe>
         </b-col>
         <b-col>
-          <a
-            target="_black"
-            href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F108913157320536%2F%3Fmessaging_source%3Dsource%253Apages%253Apage_plugin_message"
-          >
-            <img
-              src="https://cdn.icon-icons.com/icons2/836/PNG/128/Facebook_Messenger_icon-icons.com_66796.png"
-              width="50"
-              height="50"
-            />Messenger
-          </a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h3 class="text-justify text-light">
+            No solo los ingredientes hacen rico a una torta,
+            el amor con el que se hace le da un toque especial
+          </h3>
         </b-col>
       </b-row>
+      <br>
     </b-container>
+    </div>
+    </div>
   </div>
 </template>
+<style>
+.margenC{
+background-color: deeppink;
+padding-top: 5px;
+border-top: 2px;
+}
+.margenC2{
+background-color: indigo;
+padding-bottom: 5px;
+border-bottom: 2px;
+}
+.fondoC{
+  background-color: black;
+}
+
+</style>

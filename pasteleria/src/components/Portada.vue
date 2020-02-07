@@ -13,7 +13,9 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd">
        <b-carousel-slide>
-         <img src="@/assets/Pasteleria.png" width="300" height="300" class="align-self-center mr-3" />
+         <div class="logo">
+         <img src="@/assets/Pasteleria.png" width="600" height="300" class="align-self-center mr-3" />
+         </div>
         <template v-slot:img>
           <img
             class="d-block img-fluid w-100"
@@ -23,10 +25,10 @@
             alt="image slot"
           />
           <div class="carousel-caption d-none d-md-block">
-            <h1>Bienvenidos</h1>
-        <h2>Mis Antojos y Caprichos</h2>
-        <h5>Tu creas tu pastel...
-          Con nosotros tu eliges y creas tu pastel no
+            <h1 class="text-warning">BIENVENIDOS</h1>
+        <h2 class="text-warning">A Nuestra Pasteleria</h2>
+        <h5 class="text-warning" >Tu creas tu torta...
+          Con nosotros tu eliges y creas tu torta no
           limitamos tus opciones a un catalogo, los modelos
           que te presentamos solo son para que conozcas nuestro trabajo.</h5>
       </div>
@@ -38,7 +40,7 @@
             class="d-block img-fluid w-100"
             width="800"
             height="480"
-            src="@/assets/Acontecimiento.png"
+            src="@/assets/Personalizadas/P23.jpg"
             alt="image slot"
           />
           <div class="carousel-caption d-none d-md-block">
@@ -97,6 +99,13 @@ export default {
   background-color: deeppink;
   padding-top: 5px;
   border-top: 2px;
+}
+.logo{
+  position: relative;
+  top:1000;
+  bottom:750px ;
+  right: 0;
+  left: 0;
 }
 
 </style>
