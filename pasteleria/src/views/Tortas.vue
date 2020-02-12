@@ -14,14 +14,11 @@
             <div class="col-md-8 bg-warning">
               <div class="card-body">
                 <h3 class="card-title text-danger">TORTA DE TRES LECHES</h3>
-                <ul class="card-text text-light">
+                <ul class="card-text text-dark text-justify" >
                   <li>Masa de vainilla y limon</li>
                   <li>Relleno de crema y manjar</li>
                   <li>Decorado de Crema con Manjar/Chocolate</li>
                 </ul>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
               </div>
             </div>
           </div>
@@ -30,15 +27,12 @@
           <div class="row no-gutters">
             <div class="col-md-8 bg-warning">
               <div class="card-body">
-                <h5 class="card-title">TORTA DE FRUTILLA</h5>
-                <ul class="card-text">
+                <h3 class="card-title text-danger">TORTA DE FRUTILLA</h3>
+                <ul class="card-text text-dark text-justify">
                   <li>Masa de frutilla</li>
                   <li>Relleno de crema con frutilla y salsa frutilla</li>
                   <li>Decorado con fruta y chocolate</li>
                 </ul>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
               </div>
             </div>
             <div class="col-md-4">
@@ -53,15 +47,12 @@
             </div>
             <div class="col-md-8 bg-warning">
               <div class="card-body">
-                <h5 class="card-title">TORTA DE CHOCOLATE</h5>
-                <ul class="card-text">
+                <h3 class="card-title text-danger">TORTA DE CHOCOLATE</h3>
+                <ul class="card-text text-dark text-justify">
                   <li>Masa de chocolate</li>
                   <li>Relleno de crema con frutilla y salsa frutilla</li>
                   <li>Decorado con fruta y chocolate</li>
                 </ul>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
               </div>
             </div>
           </div>
@@ -70,15 +61,12 @@
           <div class="row no-gutters">
             <div class="col-md-8 bg-warning">
               <div class="card-body">
-                <h5 class="card-title">TORTA DE MOKA</h5>
-                <ul class="card-text">
+                <h3 class="card-title text-danger">TORTA DE MOKA</h3>
+                <ul class="card-text text-dark text-justify">
                   <li>Masa de moka</li>
                   <li>Relleno de crema/queso crema y dulce de leche</li>
                   <li>Decorado con fruta y chocolate</li>
                 </ul>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
               </div>
             </div>
             <div class="col-md-4">

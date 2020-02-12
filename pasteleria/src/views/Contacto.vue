@@ -7,7 +7,7 @@
       <b-row>
         <b-col>
           <br>
-          <iframe
+          <iframe class="face"
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPasteler%C3%ADa-Mis-Antojos-y-Caprichos-108913157320536%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
             width="500"
             height="500"
@@ -20,12 +20,8 @@
         </b-col>
         <b-col>
           <br>
-          <br>
-          <br>
-          <br>
-          <h3 class="text-justify text-light">
-            No solo los ingredientes hacen rico a una torta,
-            el amor con el que se hace le da un toque especial
+          <h3>
+           <img src="@/assets/Frase.png" alt="..." width="500" height="500" class="img-thumbnail frase"><br>
           </h3>
         </b-col>
       </b-row>
@@ -48,6 +44,17 @@ border-bottom: 2px;
 }
 .fondoC{
   background-color: black;
+}
+.frase{
+  background-color: deeppink;
+  border: 2px;
+  border-radius: 10%
+}
+.face{
+  background-color: yellow;
+  border-radius: 10%;
+  padding: 5px;
+  border: 2px
 }
 
 </style>

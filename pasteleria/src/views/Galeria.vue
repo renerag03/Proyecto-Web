@@ -7,19 +7,19 @@
   <br>
   <b-row class="text-white">
     <b-col>
-      <img src="@/assets/Acontecimiento.png" alt="..." class="img-thumbnail"><br>
+     <router-link to="/acontecimiento"> <img src="@/assets/Acontecimiento.png" alt="..." class="img-thumbnail imgG"></router-link><br>
       <br>
       <h3 class="text-warning">Tortas para Eventos</h3>
       <router-link to="/acontecimiento"><button type="button" class="btn btn-outline-danger">Ver mas</button></router-link>
     </b-col>
     <b-col>
-     <img src="@/assets/Unicornio.png" alt="..." class="img-thumbnail"><br>
+     <router-link to="/personalizadas"><img src="@/assets/Unicornio.png" alt="..." class="img-thumbnail imgG1"></router-link><br>
      <br>
      <h3 class="text-warning">Tortas Personalizadas</h3>
      <router-link to="/personalizadas"><button type="button" class="btn btn-outline-warning">Ver mas</button></router-link>
     </b-col>
     <b-col>
-     <img src="@/assets/TortasNormales.png" alt="..." class="img-thumbnail"><br>
+     <router-link to="/normales"><img src="@/assets/TortasNormales.png" alt="..." class="img-thumbnail imgG2"></router-link><br>
      <br>
      <h3 class="text-warning">Tortas</h3>
      <router-link to="/normales"><button type="button" class="btn btn-outline-success">Ver mas</button></router-link>
